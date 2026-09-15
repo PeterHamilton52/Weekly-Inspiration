@@ -204,6 +204,26 @@
             margin-bottom: 12px;
         }
         
+        .archive-button {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #de1a17;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid #e0e0e0;
+            margin: 20px 0;
+            transition: all 0.2s ease;
+        }
+        
+        .archive-button:hover {
+            background: #fde8e7;
+            border-color: #de1a17;
+            color: #c41410;
+        }
+        
         @media (max-width: 768px) {
             .cards-grid {
                 grid-template-columns: 1fr;
@@ -316,7 +336,8 @@
         
         <footer>
             <p>📧 <strong>Have something to share?</strong> Reply here or tag us in the inspiration thread.</p>
-            <p>Generated: September 11, 2026 | Creative Dispatch</p>
+            <a href="archive/archive.html" class="archive-button">📚 Browse Past Dispatches</a>
+            <p style="margin-top: 20px; font-size: 11px;">Generated: September 11, 2026 | Creative Dispatch</p>
         </footer>
     </div>
 </body>
