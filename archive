@@ -1,1 +1,180 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Dispatch — Archive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: #f8f8f8;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+            letter-spacing: -0.5px;
+        }
+        
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .archive-intro {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .archive-list {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .archive-item {
+            padding: 20px 28px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s ease;
+        }
+        
+        .archive-item:last-child {
+            border-bottom: none;
+        }
+        
+        .archive-item:hover {
+            background: #f8f8f8;
+        }
+        
+        .archive-item-date {
+            font-weight: 600;
+            color: #1a1a1a;
+            font-size: 15px;
+        }
+        
+        .archive-item-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 12px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #de1a17;
+            font-size: 12px;
+            font-weight: 500;
+            border: 1px solid #e0e0e0;
+            transition: all 0.2s ease;
+        }
+        
+        .archive-item-link:hover {
+            background: #fde8e7;
+            border-color: #de1a17;
+            color: #c41410;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 10px 16px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #de1a17;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1px solid #e0e0e0;
+            transition: all 0.2s ease;
+        }
+        
+        .back-link:hover {
+            background: #fde8e7;
+            border-color: #de1a17;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 2px solid #e0e0e0;
+            color: #999;
+            font-size: 11px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 0 10px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            .archive-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Creative Dispatch</h1>
+            <p class="subtitle">Archive</p>
+        </header>
+        
+        <p class="archive-intro">Browse past Creative Dispatch editions. Each week, our team curates inspiration from design, brand strategy, culture, and creative experimentation.</p>
+        
+        <div class="archive-list">
+            <!-- Past dispatches will be listed here -->
+            <!-- Example format:
+            <div class="archive-item">
+                <span class="archive-item-date">Week of September 11, 2026</span>
+                <a href="2026-09-11.html" class="archive-item-link">→ View</a>
+            </div>
+            -->
+            
+            <!-- ADD NEW ITEMS ABOVE THIS LINE -->
+        </div>
+        
+        <a href="../index.html" class="back-link">← Back to current dispatch</a>
+        
+        <footer>
+            <p>Creative Dispatch Archive | Right Formula</p>
+        </footer>
+    </div>
+</body>
+</html>
